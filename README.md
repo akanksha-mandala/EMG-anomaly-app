@@ -1,46 +1,59 @@
-EMG Anomaly Detection App
+EMG Signal Analysis System
 
-A Streamlit-based web application that analyzes EMG (electromyography) signals to detect abnormal muscle activity and provide clinical insights.
+A full-stack Streamlit application designed to analyze EMG (electromyography) signals, detect anomalies, and provide clinical interpretations to assist doctors and researchers.
 
-🌐 Live Demo
+Overview
 
-The app is deployed and accessible online:
-Open EMG Anomaly App
-https://emg-anomaly-app-agxuiwbcwbklm3umaqpk78.streamlit.app/
+The EMG Signal Analysis System allows doctors to upload patient EMG data in CSV format. The system visualizes the signal, identifies abnormal spikes, and generates a clinical summary and interpretation for further evaluation.
 
-🧾 Features
+Key Features
 
-Upload patient EMG CSV files easily.
+Upload EMG data (CSV format)
 
-Detect anomalies in muscle activation patterns automatically.
+Interactive EMG signal visualization with anomaly markers
 
-Visualize EMG data with abnormal spikes highlighted.
+Automatic detection of abnormal muscle activity
 
-Navigate easily between Upload and Analysis pages.
+Clinical summary including patient ID, muscle type, and detected anomalies
 
-💻 Requirements
+PDF report generation for record-keeping
 
-Python 3.8+
+User-friendly interface for doctors
 
-Install required packages:
+Tech Stack
 
-pip install -r requirements.txt
+Frontend / Interface: Streamlit
 
-Example requirements.txt:
+Backend & Data Processing: Python, Pandas, NumPy
 
-streamlit
-pandas
-numpy
-matplotlib
+Visualization: Matplotlib, Plotly
 
-📁 Project Structure
-/baseline_emg/         # Baseline EMG CSV files
-app.py                 # Main Streamlit application
-requirements.txt       # Python dependencies
-.gitignore
-README.md
+Reporting: FPDF
 
-🧠 Notes
-Ensure uploaded CSV files are numeric EMG data in correct format.
-Clinical interpretations are for reference only, not a medical diagnosis.
-The app works best with clean and correctly formatted EMG datasets.
+How It Works
+
+Doctors upload patient EMG CSV data.
+
+The system plots the EMG signal and highlights anomalies.
+
+Anomalies are evaluated against normal muscle activity patterns.
+
+A clinical summary and interpretation are displayed.
+
+Optional: generate a PDF report with all details.
+
+Project Status
+
+This project is currently a fully functional prototype and can be extended with:
+
+Real-time EMG data streaming
+
+Advanced anomaly detection using AI/ML models
+
+Integration with hospital management systems
+
+Deployment on cloud platforms
+
+Author
+
+Akanksha Mandala
