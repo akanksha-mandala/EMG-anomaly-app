@@ -1,59 +1,44 @@
-EMG Signal Analysis System
+# EMG Signal Analysis System
 
-A full-stack Streamlit application designed to analyze EMG (electromyography) signals, detect anomalies, and provide clinical interpretations to assist doctors and researchers.
+A Streamlit application designed to analyze EMG (electromyography) signals, detect anomalies, and provide clinical interpretations for doctors and researchers.
 
-Overview
+## Overview
 
-The EMG Signal Analysis System allows doctors to upload patient EMG data in CSV format. The system visualizes the signal, identifies abnormal spikes, and generates a clinical summary and interpretation for further evaluation.
+This system allows doctors to upload patient EMG data in CSV format. It visualizes the EMG signal, identifies abnormal spikes, and generates a clinical summary and interpretation.
 
-Key Features
+## Key Features
 
-Upload EMG data (CSV format)
+- Upload EMG data (CSV format)  
+- Interactive EMG signal visualization with anomaly markers  
+- Automatic detection of abnormal muscle activity  
+- Clinical summary including patient ID, muscle type, and detected anomalies  
+- PDF report generation for record-keeping  
+- User-friendly interface for doctors  
 
-Interactive EMG signal visualization with anomaly markers
+## Tech Stack
 
-Automatic detection of abnormal muscle activity
+- **Interface:** Streamlit  
+- **Data Processing:** Python, Pandas, NumPy  
+- **Visualization:** Matplotlib, Plotly  
+- **Reporting:** FPDF  
 
-Clinical summary including patient ID, muscle type, and detected anomalies
+## How It Works
 
-PDF report generation for record-keeping
+1. Doctor uploads patient EMG CSV data.  
+2. The system plots the EMG signal and highlights anomalies.  
+3. Detected anomalies are evaluated against normal muscle activity patterns.  
+4. A clinical summary and interpretation are displayed.  
+5. Optional: generate a PDF report with all details.
 
-User-friendly interface for doctors
+## Project Status
 
-Tech Stack
+This project is a functional prototype and can be extended with:
 
-Frontend / Interface: Streamlit
+- Real-time EMG data streaming  
+- Advanced anomaly detection using AI/ML models  
+- Integration with hospital management systems  
+- Deployment on cloud platforms  
 
-Backend & Data Processing: Python, Pandas, NumPy
+## Author
 
-Visualization: Matplotlib, Plotly
-
-Reporting: FPDF
-
-How It Works
-
-Doctors upload patient EMG CSV data.
-
-The system plots the EMG signal and highlights anomalies.
-
-Anomalies are evaluated against normal muscle activity patterns.
-
-A clinical summary and interpretation are displayed.
-
-Optional: generate a PDF report with all details.
-
-Project Status
-
-This project is currently a fully functional prototype and can be extended with:
-
-Real-time EMG data streaming
-
-Advanced anomaly detection using AI/ML models
-
-Integration with hospital management systems
-
-Deployment on cloud platforms
-
-Author
-
-Akanksha Mandala
+**Akanksha Mandala**
