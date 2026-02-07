@@ -43,7 +43,7 @@ if "file" not in st.session_state:
 page_backgrounds = {
     "welcome": "doctor-doing-an-emg-test-on-a-woman.jpg",
     "upload": "185673536-signal-wallpaper.jpg",
-    "analysis": "185673536-signal-wallpaper.jpg"
+    "analysis": "bk.jpg"
 }
 
 if st.session_state.page in page_backgrounds:
