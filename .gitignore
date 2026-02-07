@@ -16,6 +16,3 @@ venv/
 
 # Streamlit cache / secrets
 .streamlit/
-
-# Optional: baseline EMG private files
-baseline_emg/
