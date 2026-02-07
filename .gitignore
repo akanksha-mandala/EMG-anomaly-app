@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE config
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Streamlit cache / secrets
+.streamlit/
+
+# Optional: baseline EMG private files
+baseline_emg/
